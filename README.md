@@ -1,18 +1,23 @@
-# README for a newly created project.
+# A Blank Template for Open Web Apps
 
-There are a couple of things you should do first, before you can use all of Git's power:
+**Warning**: the contents in this tempate are deprected, and will soon be replaced by a much different structure. Volo and several other things will be removed to offer a simpler and more extensible template.
 
-  * Add a remote to this project: in the Cloud9 IDE command line, you can execute the following commands
-    `git remote add [remote name] [remote url (eg. 'git@github.com:/ajaxorg/node_chat')]` [Enter]
-  * Create new files inside your project
-  * Add them to to Git by executing the following command
-    `git add [file1, file2, file3, ...]` [Enter]
-  * Create a commit which can be pushed to the remote you just added
-    `git commit -m 'added new files'` [Enter]
-  * Push the commit the remote
-    `git push [remote name] master` [Enter]
+The is a minimal template that has a little HTML, CSS, and js to help
+you start writing an Open Web App.
 
-That's it! If this doesn't work for you, please visit the excellent resources from [Github.com](http://help.github.com) and the [Pro Git](http://http://progit.org/book/) book.
-If you can't find your answers there, feel free to ask us via Twitter (@cloud9ide), [mailing list](groups.google.com/group/cloud9-ide) or IRC (#cloud9ide on freenode).
+This is part of the [mortar](https://github.com/mozilla/mortar/)
+template collection for building Open Web Apps.
 
-Happy coding!
+# Usage
+
+There are a few ways to get this template:
+
+* git clone git://github.com/mozilla/mortar-app-stub.git myapp
+* volo create myapp mozilla/mortar-app-stub
+
+If you have node installed, you can run a development server with volo:
+
+1. cd myapp
+2. volo serve
+
+View the app at http://localhost:8008/.
